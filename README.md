@@ -8,4 +8,5 @@ django webview를 띄워서 사용하였다.
 terminal 명령어
 
 $ adb device
+
 $ react-native run-android
