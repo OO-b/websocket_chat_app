@@ -13,7 +13,7 @@ export default function chatView(props) {
     style={styles.container}
     >
         <View style={{flex: 1}}>
-            <Text>방번호 : {props.roomNum}</Text>
+            <Text> 방번호 : {props.roomNum}</Text>
             <WebView 
                 style={styles.container}
                 source={{ uri: 'http://192.168.45.227:8000/chat/'+props.roomNum }}
